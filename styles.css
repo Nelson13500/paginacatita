@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+header {
+    background-color: #9b59b6; /* Color morado */
+    color: white;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+main {
+    padding: 20px; /* Aumenta el padding para dar más espacio */
+}
+
+section {
+    margin: 30px 0; /* Aumenta el margen entre secciones */
+}
+
+img {
+    max-width: 80%; /* Ajusta el ancho máximo al 80% del contenedor */
+    height: auto;   /* Mantiene la relación de aspecto */
+    margin: 20px auto; /* Margen arriba y abajo para que haya espacio */
+    display: block; /* Asegura que las imágenes se comporten como bloque */
+}
+
+footer {
+    background-color: #9b59b6; /* Color morado */
+    color: white;
+    padding: 10px;
+    position: relative; /* Cambia a relative para evitar problemas con el espacio */
+    width: 100%;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+button {
+    background-color: #8e44ad; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Aumenta el margen arriba del botón */
+}
+
+button:hover {
+    background-color: #732d91; /* Color al pasar el cursor por encima */
+}
